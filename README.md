@@ -1,48 +1,51 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> A consumer finance company specializing in lending various types of loans to urban customers wants to analyze the risk of approving loan application based on past data
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The aim is to : Understand the driving factors (or driver variables) behind loan default Identify patterns which indicate if a person is likely to default, for taking actions such as – Denying the loan Reducing the amount of loan Lending (to risky applicants) at a higher interest rate.
+- Loan Dataset: Loan status can be of the following two types:
+
+  - Loan accepted: If the company approves the loan, there are 3 possible scenarios described below: Fully paid – Paid back loan amount in full. Current – Loan account is still active. Considered in analysis if >90% of term length has been paid. Charged-off – Defaulted. These two terms have been used interchangeably throughout analysis.
+  - Loan rejected: The company had rejected the loan, these records are not considered for analysis
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Exercise caution over loans given to very low and low income groups.
+- Reduction of Exposure to Grades D,E,F,G.
+- Compare the relative LTAI ratio values from the tables provided above to identify a probable default loan application.
+- Instead of providing a loan with a term of 60 months with lower instalments, providing a lesser loan amount with a term of 36 months that matches their LTAI and instalment capacity may reduce default.
+- It is better to provide a higher loan amount to high annual income applicant having a lower LTAI at lower interest rate than providing a lower loan amount to low income applicant having a higher LTAI at a high interest rate.
+
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Numpy
+- Pandas
+- Matplotlib.pyplot
+- Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Vedakashyap7] - feel free to contact me!
 
 
 <!-- Optional -->
